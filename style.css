@@ -63,6 +63,15 @@ a:visited{
     border: 0;
 }
 
+.footer-frame{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border: 0;
+}
+
 .body-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -99,4 +108,14 @@ a:visited{
     background-color: #333;
     color: white;
     border: none;
+}
+
+.section-container{
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    width: 100%;
 }
