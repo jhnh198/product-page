@@ -122,3 +122,50 @@ a:visited{
 .section-product-container {
     margin: 3em;
 }
+
+.section-product-info-div{
+    text-align: center;
+}
+
+.section-product-info-div > h2{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+} 
+
+.section-product-info-div > h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+
+.section-product-info-div > p{
+    display: inline-flex;
+    align-items: center;
+    width: 50%;
+    padding-bottom: 2rem;
+}
+
+.product-price{
+    justify-content: right;
+    padding-right: 4rem;
+}
+
+.section-product-info-div > button{
+    justify-content: left;
+}
+
+.section-container button{
+    padding: 1em;
+    background-color: #333;
+    color: white;
+    border: none;
+}
+
+.section-container-image-div{
+    text-align: center;
+}
+
+.product-image{
+    align-items: center;
+}
