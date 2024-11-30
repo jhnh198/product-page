@@ -111,11 +111,14 @@ a:visited{
 }
 
 .section-container{
-    display: flex;
-    flex-direction: row;
-    flex-basis: auto;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
     align-items: center;
     padding: 1em;
     width: 100%;
+}
+
+.section-product-container {
+    margin: 3em;
 }
