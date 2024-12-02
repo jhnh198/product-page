@@ -4,8 +4,13 @@
     margin: 0;
 }
 
+:root{
+    --primary-color: #333;
+    --secondary-color: #f1f1f1;
+}
+
 header {
-    background-color: #333;
+    background-color: var(--primary-color);
     color: white;
     padding: 1em;
 }
@@ -17,7 +22,7 @@ body{
 }
 
 footer {
-    background-color: #333;
+    background-color: var(--primary-color);
     color: white;
     padding: 1em;
     position: fixed;
@@ -33,7 +38,7 @@ ul{
     display: flex;
     justify-content: space-around;
     padding: 1em;
-    background-color: #333; 
+    background-color: var(--primary-color);
     flex-direction: row;
 }
 
@@ -43,11 +48,11 @@ a{
 }
 
 a:hover{
-    color: #f1f1f1;
+    color: var(--secondary-color);
 }
 
 a:active{
-    color: #f1f1f1;
+    color: var(--secondary-color);
 }
 
 a:visited{
@@ -105,7 +110,7 @@ a:visited{
 
 .top-product button{
     padding: 1em;
-    background-color: #333;
+    background-color: var(--primary-color);
     color: white;
     border: none;
 }
@@ -157,7 +162,7 @@ a:visited{
 
 .section-container button{
     padding: 1em;
-    background-color: #333;
+    background-color: var(--primary-color);
     color: white;
     border: none;
 }
@@ -168,4 +173,28 @@ a:visited{
 
 .product-image{
     align-items: center;
+}
+
+.section-home-blurb{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    width: 100%;
+}
+
+.blurb-color-div{
+    background-color: var(--primary-color);
+    color: white;
+    margin: 1em;
+    height: 20em;
+}
+
+.blurb-header{
+    margin: 2rem;
+}
+
+.blurb-text-div{
+    margin: 1em;
 }
