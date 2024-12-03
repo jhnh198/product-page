@@ -189,6 +189,12 @@ a:visited{
     color: white;
     margin: 1em;
     height: 20em;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.blurb-image{
 }
 
 .blurb-header{
