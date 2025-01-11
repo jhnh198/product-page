@@ -70,6 +70,10 @@ a:visited{
     margin: 0;
 }
 
+.header-nav-list a{
+  font-size: 1.5rem;
+}
+
 .hero-container{
     display: flex;
     width: 100%;
