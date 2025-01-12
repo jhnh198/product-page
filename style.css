@@ -78,6 +78,7 @@ a:visited{
     display: flex;
     width: 100%;
     background-color: var(--primary-color);
+    height: 100vh;
 }
 
 .hero-image{

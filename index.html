@@ -5,18 +5,9 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <script src="script.js"></script>
     </head>
-    <iframe class="header-frame" src="header.html"></iframe>
-    <body>
-      <div class="hero-container">
-        <img class="hero-image" src="" alt="Product 1">
-        <a> Visit </a>
-        <a> Things To Do </a>
-        <a> Wildlife </a>
-        <a> Shop </a>
-        <a> Our Mission </a>
-      </div>
 
-        <!--
+      <!--
+      layout
           hero 
           rows 
             offerings
@@ -25,89 +16,94 @@
             partners
             newsletter
             social media          
-        -->
+      -->
+    <body>
+      <iframe class="header-frame" src="header.html"></iframe>
+      <!-- hero -->
+      <div class="hero-container">
 
-        <div class="journal-row-container">
-          <h1> Journal </h1>
-          <p> More About Squonk </p>
-          <div class="journal-row-image"> 
-            <img alt="a picture of a dog sized creature with a sad face" src="images/squonk.jpg">
+        <h1 class="hero-header-text"> Discover a world of enchanting and fascinating creatures not found anywhere else in the world</h1>
+        <img class="hero-image" alt="a picture of a zoo" src="images/zoo.jpg">
+      </div>
+ 
+      <!-- meet the critters -->
+
+      <div class="journal-row-container">
+        <h1> Journal </h1>
+        <p> More About Squonk </p>
+        <div class="journal-row-image"> 
+          <img alt="a picture of a wrinkly dog sized creature with a sad face" src="images/squonk.jpg">
+        </div>
+      </div>
+
+
+      <!-- zoo tour options -->
+      <div>
+        <h1> Zoo Tour Options </h1>
+        <div class="zoo-tour-container">
+          <div class="zoo-tour">
+            <img alt="a picture of a zoo tour" src="images/zoo-tour.jpg">
+            <h2> Guided Zoo Tour </h2>
+            <p> A guided tour of the zoo with a knowledgeable guide. </p>
+            <p> $50 </p>
+          </div>
+          <div class="zoo-tour">
+            <img alt="a picture of a zoo tour" src="images/zoo-tour.jpg">
+            <h2> Self-Guided Zoo Tour </h2>
+            <p> A self-guided tour of the zoo. </p>
+            <p> $25 </p>
+          </div>
+          <div class="zoo-tour">
+            <img alt="a picture of a zoo tour" src="images/zoo-tour.jpg">
+            <h2> Virtual Zoo Tour </h2>
+            <p> A virtual tour of the zoo. </p>
+            <p> $10 </p>
           </div>
         </div>
+      </div>
 
+      <!-- map -->
 
+      <!-- partners -->
+       <div>
+        Meet some of our sponsors and partners!
+        <div class="partner-container">
+          <div class="partner">
+            <img alt="a picture of a partner" src="images/partner.jpg">
+            <h2> Partner 1 </h2>
+            <p> A description of partner 1. </p>
+          </div>
+          <div class="partner">
+            <img alt="a picture of a partner" src="images/partner.jpg">
+            <h2> Partner 2 </h2>
+            <p> A description of partner 2. </p>
+          </div>
+          <div class="partner">
+            <img alt="a picture of a partner" src="images/partner.jpg">
+            <h2> Partner 3 </h2>
+            <p> A description of partner 3. </p>
+          </div>
+       </div>
 
-        <section class="section-product-container"> 
-            <div class="section-container">
-                <div class="section-container-image-div">
-                    <img class="product-image" src="images/box.png" alt="Product 6">
-                </div>
-                <div class="section-product-info-div">
-                    <h2>Featured Product</h2>
-                    <h3>Product 4</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nobis porro nisi voluptates atque itaque molestias laboriosam quia fugiat nihil, aspernatur culpa iusto, cumque non accusantium labore cupiditate alias beatae.</p>
-                    <p class="product-price"> Price: $40.00</p>
-                    <button type="button" onclick="alert('Added to cart!')">Add to Cart</button>
-                </div>
-            </div>
+      <!-- newsletter -->
+      <!-- email sign up form for newsletter -->
+      <form>
+        <label for="email">Sign up for our newsletter</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <input type="submit" value="Submit">
+      </form>
 
-            <div class="section-container">
-                <div class="section-container-image-div">
-                    <img class="product-image" src="images/box.png" alt="Product 6">
-                </div>
-                <div class="section-product-info-div">
-                    <h2>Featured Product</h2>
-                    <h3>Product 4</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nobis porro nisi voluptates atque itaque molestias laboriosam quia fugiat nihil, aspernatur culpa iusto, cumque non accusantium labore cupiditate alias beatae.</p>
-                    <p class="product-price"> Price: $40.00</p>
-                    <button type="button" onclick="alert('Added to cart!')">Add to Cart</button>
-                </div>
-            </div>
+      <!-- social media section -->
+      <div class="social-media-container">
+        <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook"></a>
+        <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram"></a>
+        <a href="https://www.twitter.com/"><img src="images/twitter.png" alt="twitter"></a>
+        <a href="https://www.pinterest.com/"><img src="images/pinterest.png" alt="pinterest"></a>
+      </div>
 
-            <div class="section-container">
-                <div class="section-container-image-div">
-                    <img class="product-image" src="images/box.png" alt="Product 6">
-                </div>
-                <div class="section-product-info-div">
-                    <h2>Featured Product</h2>
-                    <h3>Product 4</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nobis porro nisi voluptates atque itaque molestias laboriosam quia fugiat nihil, aspernatur culpa iusto, cumque non accusantium labore cupiditate alias beatae.</p>
-                    <p class="product-price"> Price: $40.00</p>
-                    <button type="button" onclick="alert('Added to cart!')">Add to Cart</button>
-                </div>
-            </div>
-        </section>
-
-        <section class="section-home-blurb">
-            <div class="blurb-color-div">
-                <img class="blurb-image" src="images/box.png"/>
-            </div>
-            <div class="blurb-text-div">
-                <h2 class="blurb-header"> Product Blurb Header</h2>
-                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta sunt, omnis nam esse tempora, optio hic in magni doloribus sed, atque quas ipsa vero reiciendis nemo odio consectetur ipsum. Nesciunt! </p>
-            </div>
-        </section>
-
-        <section class="section-home-blurb">
-            <div class="blurb-color-div">
-                <img class="blurb-image" src="images/box.png"/>
-            </div>
-            <div class="blurb-text-div">
-                <h2 class="blurb-header"> Product Blurb Header</h2>
-                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta sunt, omnis nam esse tempora, optio hic in magni doloribus sed, atque quas ipsa vero reiciendis nemo odio consectetur ipsum. Nesciunt! </p>
-            </div>
-        </section>
-
-        <section class="section-home-blurb">
-            <div class="blurb-color-div">
-                <img class="blurb-image" src="images/box.png"/>
-            </div>
-            <div class="blurb-text-div">
-                <h2 class="blurb-header"> Product Blurb Header</h2>
-                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta sunt, omnis nam esse tempora, optio hic in magni doloribus sed, atque quas ipsa vero reiciendis nemo odio consectetur ipsum. Nesciunt! </p>
-            </div>
-        </section>
     </body>
+
+
 
     <iframe class="footer-frame" src="footer.html"></iframe>
 </html>
