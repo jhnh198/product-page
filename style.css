@@ -125,6 +125,26 @@ iframe{
     width: 50%;
 }
 
+.journal-row-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.journal-entry-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+    margin: 1em;
+    width: 100%;
+}
+
 .top-product{
     display: flex;
     justify-content: center;
