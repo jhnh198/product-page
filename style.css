@@ -122,7 +122,6 @@ iframe{
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
-    padding: 1em;
     margin-top: 3rem;
 }
 
@@ -131,6 +130,7 @@ iframe{
     justify-content: center;
     align-items: center;
     padding: 1em;
+    max-width: 500px;
 }
 
 .card-three-element{
@@ -150,4 +150,20 @@ iframe{
     padding: 1em;
     width: 100%;
     margin-top: 3rem;
+}
+
+.row-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.two-panel-row-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
 }
