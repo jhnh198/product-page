@@ -84,10 +84,30 @@ a:visited{
     height: 100vh;
 }
 
+.hero-header-text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5rem;
+    width: 80%;
+    background-color: var(--secondary-color);
+    border-radius: 1rem;
+    padding: 3rem;
+}
+
 .hero-image-text-container{
     display: flex;
     padding: 1em;
     width: 100%;
+}
+
+.hero-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    margin-top: 2rem;
 }
 
 .hero-image-container{
