@@ -223,3 +223,13 @@ iframe{
     width: 60px;
     height: 60px;
 }
+
+.four-element-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+    margin: 1em;
+    width: 100%;
+}
